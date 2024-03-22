@@ -12,6 +12,6 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = '10.0'
   
-  spec.dependency 'SnapKit', '~> 5.0.1'
+  spec.dependency 'SnapKit', '>= 5.0.1'
   spec.dependency 'DotKit', '~> 0.0.2'
 end
